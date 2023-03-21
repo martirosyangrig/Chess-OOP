@@ -60,7 +60,3 @@ export default class Borard {
         this.squares[7][4] = new King('white', this.squares[7][4], this);
     }
 }
-
-const a = new Borard();
-a.initCells()
-a.print()
