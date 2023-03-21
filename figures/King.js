@@ -4,7 +4,7 @@ export default class King extends Figure {
     constructor(color, position, board) {
         super(color, position);
         this.hasMoved = false; // added to keep track if the king has moved or not
-        this.boardd = board;
+        this.board = board;
     }
 
     canMoveTo(destination) {
